@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "prepair-to-interview"
+version = "0.1.0"
+description = ""
+authors = ["Nik Bezmaternykh <nikitabit@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "prepair_to_interview"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
